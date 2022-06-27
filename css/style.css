@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+margin: 0 auto;
+padding: 0;
+box-sizing:  border-box;
+}
+
+
+#topo {
+	height: 150px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+}
+
+#menu {
+	list-style: none;
+	padding: 0;
+	background-color:#000033;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	
+	
+	text-align: center;
+}
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	padding: 20px;
+	color: #ffff;
+	text-decoration: none;
+	display: inline-block;
+	transition: background .4s;
+	
+}
+
+#menu li a:hover {
+	background-color: 	#1E90FF;
+	
+}
+
+p {
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #1C1C1C;
+}
+h2 {
+	margin-top: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-style: normal;
+	text-transform: none;
+	color: #F60;
+}
+h1 {
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: larger;
+}
+#conteudo {
+	height: 500px;
+	width: 900px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px;
+}
+#parte1 {
+	float: left;
+	height: 500px;
+	width: 420px;
+}
+#parte2 {
+	float: left;
+	height: 500px;
+	width: 420px;
+	margin-left: 60px;
+}
+
+#rodape {
+	padding: 50px;
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+	color: #ffff;
+	background-color:#000033;
+}
+#imgbig {
+	height: 350px;
+	width: 420px;
+	float: left;
+}
+#imgsmall {
+	float: left;
+	height: 80px;
+	width: 100px;
+	margin-right: 7px;
+	margin-top: 10px;
+}
+#imgsmall2 {
+	float: left;
+	height: 80px;
+	width: 100px;
+	margin-top: 10px;
+	margin-right: 7px;
+}
+#imgsmall3 {
+	float: left;
+	height: 80px;
+	width: 100px;
+	margin-top: 10px;
+	margin-right: 6px;
+}
+#imgsmall4 {
+	float: left;
+	height: 80px;
+	width: 100px;
+	margin-top: 10px;
+}
